@@ -39,6 +39,8 @@ def main():
     if response.status_code != 200:
         print(response.text)
         exit(1)
+    elif response.status_code == 200:
+        print("API docs updated successfully! :rocket:")
 
 
 if __name__ == "__main__":
