@@ -24,6 +24,17 @@ jobs:
         settingsPath: docs.yml
 ```
 
+The settingsPath yaml should follow this schema:
+```yaml
+docs1:
+  source: tests/docs1.md
+  slug: docs1
+docs2:
+  source: other/docs2.md
+  slug: docs2
+
+```
+
 ### Inputs
 
 | Input                                             | Description                                        |
