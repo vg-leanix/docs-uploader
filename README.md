@@ -14,7 +14,7 @@ jobs:
     - uses: actions/checkout@master
     - name: Run action
 
-      uses: vg-leanix/reademe-upload@master
+      uses: vg-leanix/reademe-upload@latest
 
       with:
         docVersion: v1.0.0
