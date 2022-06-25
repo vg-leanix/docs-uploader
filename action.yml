@@ -1,0 +1,24 @@
+name: "Readme.io Uploader Action"
+description: "Uploading markdown files to readme.io"
+author: "Vincent Groves"
+inputs:
+  docVersion:
+    description: "Version of the docs to upload to"
+    required: true
+  apiKey:
+    description: "API Key from Readme.io"
+    required: true
+  slug:
+    description: "The slug of the specific page"
+    required: true
+  categoryId:
+    description: "The category id of the specific documentation page"
+    required: true
+  path:
+    description: "Path to the documentaton markdown"
+    required: true
+
+    
+runs:
+  using: "docker"
+  image: "Dockerfile"
