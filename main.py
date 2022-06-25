@@ -27,7 +27,7 @@ def main():
 
     payload = {
         "hidden": True,
-        "catgory":category_id,
+        "catgory": category_id,
         "order": 999,
         "body": markdown
 
