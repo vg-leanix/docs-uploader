@@ -1,4 +1,5 @@
-# reademe-upload
+# Docs Uploader
+Simple GitHub action to allow devs to have their markdonw in the repo without having to worry about updating their readme.io docs on every deploy.
 
 ## Usage
 This action helps you automate your changes to your markdown and the subsequent upload to your readme.io project to automate dev workflows.
@@ -14,7 +15,7 @@ jobs:
     - uses: actions/checkout@master
     - name: Run action
 
-      uses: vg-leanix/reademe-upload@latest
+      uses: vg-leanix/docs-uploader@latest
 
       with:
         docVersion: v1.0.0
