@@ -36,7 +36,9 @@ def main():
 
     response = requests.put(url, json=payload, headers=headers)
 
-    print(response.text)
+    if response.status_code != 200:
+        print(response.text)
+        exit(1)
 
 
 if __name__ == "__main__":
