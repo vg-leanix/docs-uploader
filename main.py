@@ -11,7 +11,8 @@ def main():
     markdown_path = os.environ["INPUT_PATH"]
 
     apikey_changed = apikey+":"
-    b64_apikey = base64.b64encode(apikey_changed.encode("ascii"))
+    b64_apikey = base64.b64encode(
+        apikey_changed.encode("utf-8")).decode("utf-8")
 
     with open(markdown_path, "r") as md:
         markdown = md.read()
