@@ -9,7 +9,7 @@ def main():
     docversion = os.environ["INPUT_DOCVERSION"]
     apikey = os.environ["INPUT_APIKEY"]
     category_id = os.environ["INPUT_CATEGORYID"]
-    settings_path = os.environ["INPUT_PATH"]
+    settings_path = os.environ["INPUT_SETTINGSPATH"]
 
     apikey_changed = apikey+":"
     b64_apikey = base64.b64encode(
