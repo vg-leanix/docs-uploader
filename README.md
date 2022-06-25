@@ -24,7 +24,7 @@ jobs:
         settingsPath: docs.yml
 ```
 
-The settingsPath yaml should follow this schema:
+The `settingsPath` yaml should follow this schema:
 ```yaml
 docs1:
   source: tests/docs1.md
