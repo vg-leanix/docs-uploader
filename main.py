@@ -38,7 +38,7 @@ def main():
         for integration, value in md.items():
             if value['source'] in changed_files_list:
                 matched_docs += 1
-                print(f"{integration} was changed.")
+                print(f"Docs for {integration} were changed.")
                 path = value['source']
                 slug = value['slug']
 
