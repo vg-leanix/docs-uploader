@@ -1,5 +1,5 @@
 # Docs Uploader
-Simple GitHub action to allow devs to have their markdonw in the repo without having to worry about updating their readme.io docs on every deploy.
+Simple GitHub action to allow devs to have their markdown in the repo without having to worry about updating their readme.io docs on every deploy.
 
 ## Usage
 This action helps you automate your changes to your markdown and the subsequent upload to your readme.io project to automate dev workflows.
