@@ -17,7 +17,10 @@ inputs:
   settingsPath:
     description: "yaml to point to the individual markdowns to be updated"
     required: true
-
+  changedFiles:
+    description: "dependent on useChangedFiles this is a string of changed files that will be posted to readme.io"
+    required: false
+    default: ""
     
 runs:
   using: "docker"
