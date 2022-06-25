@@ -14,13 +14,14 @@ jobs:
     - uses: actions/checkout@master
     - name: Run action
 
-      uses: vg-leanix/readme-upload@master
+      uses: vg-leanix/reademe-upload@master
 
       with:
         docVersion: v1.0.0
         apiKey: foobar123
         slug: test
         categoryId: 12fff324
+        path: tests/test.md
 ```
 
 ### Inputs
