@@ -19,9 +19,8 @@ jobs:
       with:
         docVersion: v1.0.0
         apiKey: foobar123
-        slug: test
         categoryId: 12fff324
-        path: tests/test.md
+        settingPath: docs.yml
 ```
 
 ### Inputs
@@ -32,7 +31,7 @@ jobs:
 | `apiKey`   | The API Key from readme.io. See [documentation](https://docs.readme.com/reference/authentication).    |
 | `slug`   | The slug of the specific page    |
 | `categoryId`   | The category id of the specific documentation page    |
-| `path`   | Path to the documentaton markdown    |
+| `settingPath`   | yaml to point to the individual markdowns to be updated    |
 
 
 

@@ -14,8 +14,8 @@ inputs:
   categoryId:
     description: "The category id of the specific documentation page"
     required: true
-  path:
-    description: "Path to the documentaton markdown"
+  settingPath:
+    description: "yaml to point to the individual markdowns to be updated"
     required: true
 
     
