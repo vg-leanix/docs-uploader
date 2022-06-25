@@ -1,5 +1,6 @@
 import os
 import base64
+import emoji
 import requests  # noqa We are just importing this to prove the dependency installed correctly
 
 
@@ -40,7 +41,7 @@ def main():
         print(response.text)
         exit(1)
     elif response.status_code == 200:
-        print("API docs updated successfully! :rocket:")
+        print(emoji.emojize("API docs updated successfully! :rocket:"))
 
 
 if __name__ == "__main__":
